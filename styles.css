@@ -10,22 +10,36 @@
     width: 100%;
 }
 
-.heading {
+.heading-1 {
     background-color: #cdcdcd;
-    height: 50px;
-    width: 50%;
+    height: 60px;
+    width: 30%;
     margin: 30px auto;
 }
 
+.heading-2 {
+    background-color: #cdcdcd;
+    height: 60px;
+    width: 57%;
+    margin: 30px auto;
+}
+
+.heading-3 {
+    background-color: #cdcdcd;
+    height: 60px;
+    width: 60%;
+    margin: 0 auto;
+}
+
 .hero-section {
-    height: 500px;
+    height: 600px;
     width: 100%;
     position: relative;
 }
 
 .section-one,
 .section-two {
-    height: 400px;
+    height: 600px;
     width: 49%;
     background-color: #cdcdcd;
     float: left;
@@ -58,6 +72,7 @@
 }
 
 .section-three {
+    margin-top: 2rem;
     background-color: #cdcdcd;
     padding: 3rem 1rem;
     overflow: hidden;
@@ -97,7 +112,7 @@
 .s4-heading {
     width: 100%;
     max-width: 400px;
-    height: 50px;
+    height: 60px;
     margin: 0 auto 2rem;
     background-color: #cdcdcd;
 }
@@ -105,7 +120,7 @@
 .s4-content {
     width: 100%;
     max-width: 600px;
-    height: 40px;
+    height: 60px;
     margin: 12px auto;
     background-color: #cdcdcd;
 }
@@ -113,7 +128,7 @@
 .s4-major {
     width: 100%;
     max-width: 600px;
-    height: 100px;
+    height: 150px;
     margin: 12px auto;
     background-color: #cdcdcd;
 }
@@ -150,14 +165,14 @@
     position: absolute;
     top: 13px;
     height: 227px;
-    width: 49%;
+    width: 48%;
     background-color: white;
 }
 
 .footer-one {
-    left: 0.5%;
+    left: 15px;
 }
 
 .footer-two {
-    right: 0.5%;
+    right: 15px;
 }
