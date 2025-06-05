@@ -1,194 +1,163 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
-
-
-
-
 .header {
-    background-color: rgb(205, 205, 205);
+    background-color: #cdcdcd;
     height: 50px;
     width: 100%;
 }
 
 .heading {
-    background-color: rgb(205, 205, 205);
+    background-color: #cdcdcd;
     height: 50px;
     width: 50%;
-    position: relative;
-    top: 30px;
-    left: 25%;
-
+    margin: 30px auto;
 }
 
 .hero-section {
-    position: relative;
     height: 500px;
     width: 100%;
-    top: 50px;
-
+    position: relative;
 }
 
-.section-one {
-    position: absolute;
+.section-one,
+.section-two {
     height: 400px;
-    width: 50%;
-    top: 0;
-    left: 0;
-    background-color: rgb(205, 205, 205);
+    width: 49%;
+    background-color: #cdcdcd;
+    float: left;
 }
 
 .section-two {
-    position: absolute;
-    height: 400px;
-    width: 49%;
-    top: 0;
-    right: 0;
-    background-color: rgb(205, 205, 205);
+    float: right;
 }
 
 .grid-container {
-    position: relative;
-    top: 30px;
+    width: 97%;
+    height: 100dvh;
+    margin: 0 auto;
 
 
-    margin: 3rem;
 }
 
-.grid-container>div {
-    margin-left: 7rem;
-    display: block;
-    margin-top: 2px;
-    margin-right: 2px;
+.box-container {
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.col-1>div {
+.box {
+    height: 41%;
+    width: 21%;
+    margin: 1%;
+    background-color: #cdcdcd;
     display: inline-block;
-    background-color: rgb(205, 205, 205);
-    width: 300px;
-    height: 300px;
-
-}
-
-.col-2>div {
-    display: inline-block;
-    background-color: rgb(205, 205, 205);
-    width: 300px;
-    height: 300px;
 }
 
 .section-three {
-    position: relative;
-    height: 750px;
-    width: 100%;
-    background-color: rgb(205, 205, 205);
-    top: 30px;
-    display: inline-block;
+    background-color: #cdcdcd;
+    padding: 3rem 1rem;
+    overflow: hidden;
 }
 
 .card {
     background-color: white;
+    width: 30%;
+    float: left;
+    margin: 1.5%;
     height: 600px;
-    width: 400px;
-    position: relative;
-    display: inline-block;
-    top: 14%;
-    left: 3%;
-    margin-right: 5%;
+}
 
+.card-heading,
+.card-action,
+.card-footer {
+    background-color: #cdcdcd;
+    margin: 15px;
 }
 
 .card-heading {
-    margin: 15px;
-    background-color: rgb(205, 205, 205);
     height: 50px;
 }
 
 .card-action {
-    background-color: rgb(205, 205, 205);
     height: 50%;
-    margin: 15px;
 }
 
 .card-footer {
-    background-color: rgb(205, 205, 205);
     height: 31%;
-    margin: 15px;
 }
 
 .section-four {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 3rem;
-
+    margin: 3rem 10%;
 }
 
 .s4-heading {
-    width: 27%;
+    width: 100%;
+    max-width: 400px;
     height: 50px;
-    margin: 5px auto;
-    margin-bottom: 2rem;
-    background-color: rgb(205, 205, 205);
-    margin
+    margin: 0 auto 2rem;
+    background-color: #cdcdcd;
 }
 
 .s4-content {
-    width: 50%;
+    width: 100%;
+    max-width: 600px;
     height: 40px;
     margin: 12px auto;
-    background-color: rgb(205, 205, 205);
+    background-color: #cdcdcd;
 }
 
 .s4-major {
-    width: 50%;
+    width: 100%;
+    max-width: 600px;
     height: 100px;
-    margin: 5px auto;
-    background-color: rgb(205, 205, 205);
+    margin: 12px auto;
+    background-color: #cdcdcd;
 }
 
 .s4-buttons {
-    width: 50%;
+    width: 100%;
+    max-width: 600px;
     height: 50px;
     margin: 12px auto;
-    position: relative;
 }
 
-.s4-buttons>.s4-button {
-    width: 49.5%;
+.s4-button {
+    width: 49%;
     height: 100%;
-    background-color: rgb(205, 205, 205);
-
-    border: none;
-    display: inline-block;
+    background-color: #cdcdcd;
+    float: left;
+    margin-right: 2%;
 }
 
+.s4-button:last-child {
+    margin-right: 0;
+}
 
 .footer {
-    background-color: rgb(205, 205, 205);
+    background-color: #cdcdcd;
     height: 250px;
     width: 100%;
     position: relative;
-    top: 30px;
-
+    margin-top: 30px;
 }
 
-.footer-one {
-    position: absolute;
-    top: 13px;
-    left: 10px;
-    width: 49%;
-    height: 227px;
-    background-color: white;
-}
-
+.footer-one,
 .footer-two {
     position: absolute;
     top: 13px;
-    right: 10px;
-    width: 49%;
     height: 227px;
+    width: 49%;
     background-color: white;
+}
+
+.footer-one {
+    left: 0.5%;
+}
+
+.footer-two {
+    right: 0.5%;
 }
